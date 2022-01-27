@@ -57,8 +57,29 @@ K = Celsius + 273.15
 print(f' Temperatura em ºF: {F}')
 print(f'Temperatura em K:  {K}')
 
-"""
 
 
 nome = "Mark"
-print(int(nome))
+print(int(nome)) #não é possível transformar letras em números
+
+
+frase = "EU SOU SEU PAi"
+print(frase[-1::])
+"""
+
+#Personagem Ficção
+
+CorCabelo = input("Digite a Cor do Cabelo:  ")
+CorPele = input("Digite a Cor de pele:  ")
+Classe = input("Escolha entre: 1-Guerreiro / 2-Mago /3-Arqueiro \n Digite: ")
+Idade = int(input("Digite a idade: "))
+Altura = float(input("Digite a altura: "))
+HabilidadeEspecifica = input("Digite a habilidade: ")
+
+print(f' Personagem Escolhido:  \n '
+      f'Cabelo: {CorCabelo} \n'
+      f'Pele: {CorPele} \n'
+      f'Classe: {Classe} \n'
+      f'Idade: {Idade} \n'
+      f'Altura: {Altura} \n'
+      f'Habilidade: {HabilidadeEspecifica} \n')
