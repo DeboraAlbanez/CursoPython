@@ -13,4 +13,5 @@ idade = input('Digite sua idade: ') #Recebendo a idade do usuário
 print(f'Nome: {nome}. Idade: {idade}')
 """
 
-dir(10)
+salario = float(input("Digite seu salário:"))
+acrescimo = float(input("Informe a % do aumento obtido:"))

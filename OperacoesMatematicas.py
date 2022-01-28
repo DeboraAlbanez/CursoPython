@@ -65,7 +65,7 @@ print(int(nome)) #não é possível transformar letras em números
 
 frase = "EU SOU SEU PAi"
 print(frase[-1::])
-"""
+
 
 #Personagem Ficção
 
@@ -83,3 +83,29 @@ print(f' Personagem Escolhido:  \n '
       f'Idade: {Idade} \n'
       f'Altura: {Altura} \n'
       f'Habilidade: {HabilidadeEspecifica} \n')
+"""
+
+#Calculadora
+
+op = int(input("Escolha uma operação: \n "
+      "1 - Soma \n "
+      "2 - Subtração \n"
+      "3 - Divisão \n"
+      "4 - Multiplicação \n"
+      "5 - Potência \n"
+      "Escolha: "))
+num1 = int(input("Digite o primeiro número: "))
+num2 = int(input("Digite o segundo número: "))
+
+if op == 1:
+    print(f'Soma: {num1 + num2}')
+elif op == 2:
+    print(f'Subtração: {num1 - num2}')
+elif op == 3:
+    print(f'Divisão: {num1 / num2}')
+elif op == 4:
+    print(f'Multiplicação: {num1 * num2}')
+elif op == 5:
+    print(f'Potência: {num1 ** num2}')
+else:
+      ("Opção inválida. Escolha uma opção válida! ")
