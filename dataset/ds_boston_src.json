@@ -1,0 +1,29 @@
+{
+	"name": "ds_boston_src",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobStorageLs",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "dados_boston.zip",
+				"container": "bostonzip"
+			},
+			"columnDelimiter": ",",
+			"compressionCodec": "ZipDeflate",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "PK\u0003\u0004\u0014\u0000\u0000\u0000\u0000\u0000��{Z\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0013\u0000\u0000\u0000.ipynb_checkpoints/PK\u0003\u0004\u0014\u0000\u0000\u0000\b\u0000\u001a�{Z�� 6%s�\u0001F�\u001c\b\u000e\u0000\u0000\u0000dados_2019.csv�is\u001bI�6�}E��Y�3f\u0010\u0014����g��%�FԔ���L\u0006�)\u0011[ ��!5�ׯ{D&�\u0019\b\u0010��EMwu�J\u0004�\u0001\u0010��?~1������w�����duS/�]n'����v��Xo��jS_��V�w��u=�@��v��mܳ�u�n]�6��j;�.��f����/�����M=����Փ��f��^��-��z����7W��}3��bu1�΁��\u001c��r�ٮ�p���˻\u001f.���w\u0017���b��d��_tH��������j�����nS�?�K7w��<[_Nn���|\t?��\u0001~�u",
+				"type": "String"
+			}
+		]
+	}
+}
